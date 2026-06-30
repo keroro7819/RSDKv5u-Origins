@@ -37,7 +37,7 @@ jobs:
           mkdir artifacts
           mv ./bin/Windows/DX9/*.exe ./artifacts
       - name: Upload artifacts
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v4
         with:
           name: v5-windows
           path: artifacts
